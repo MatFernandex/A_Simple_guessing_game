@@ -1,5 +1,5 @@
 It's just a game of guessing the number from 1 to 100, made in Python and very simple
-```
+```Python
 import random
 
 print("Welcome to the Guess")
@@ -17,5 +17,8 @@ while int(response) != random_number:
     elif int(response) < random_number:
         attempts -= 1
         print("you you missed, the number is bigger. You still have {}".format(attempts))
-
+    if attempts == 0:
+        print("You lose")
+        break
 print("Thank you for playing!")
+```
