@@ -1,5 +1,5 @@
 It's just a game of guessing the number from 1 to 100, made in Python and very simple
-```
+```Pyhton
 import random
 
 print("Welcome to the Guess")
