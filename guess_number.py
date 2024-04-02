@@ -15,5 +15,7 @@ while int(response) != random_number:
     elif int(response) < random_number:
         attempts -= 1
         print("you you missed, the number is bigger. You still have {}".format(attempts))
-
+    if attempts == 0:
+        print("You lose")
+        break
 print("Thank you for playing!")
